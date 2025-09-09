@@ -30,7 +30,7 @@ let myObj = {
 } // Objests
 
 const myFunction = function(){
-    console.log("Hello World");
+    console.log("Hello World"); // false
 } // Functions
 
 console.log("\n")
@@ -44,8 +44,8 @@ let myName = "zuhawasfi"
 let anotherName = myName
 anotherName = "rammazsharfi"
 
-console.log(myName);
-console.log(anotherName);
+console.log(myName); // zuhawasfi
+console.log(anotherName); // rammazsharfi
 
 console.log("\n")
 
@@ -58,5 +58,5 @@ let userTwo = userOne
 
 userTwo.email = "zuha@google.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+console.log(userOne.email); // zuha@google.com
+console.log(userTwo.email); // zuha@google.com
