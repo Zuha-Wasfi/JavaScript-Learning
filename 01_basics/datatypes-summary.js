@@ -39,6 +39,7 @@ console.log("\n")
 
 // Stack (Primitive), Heap (Non-Primitive)
 
+// Stack
 let myName = "zuhawasfi"
 
 let anotherName = myName
@@ -49,6 +50,7 @@ console.log(anotherName); // rammazsharfi
 
 console.log("\n")
 
+// Heap
 let userOne = {
     email: "user@google.com",
     upi: "user@ybl"
