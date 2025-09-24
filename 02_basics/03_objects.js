@@ -28,8 +28,6 @@ console.log(JsUser);
 
 console.log("\n")
 
-// Functions
-
 console.log(JsUser.greeting); // undefined
 
 JsUser.greeting = function(){
